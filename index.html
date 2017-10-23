@@ -4,66 +4,55 @@
 	<title>Pu Gao</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<div>
-			<img src="img/logo.png" id="logo" class="img-fluid img-circle" alt="AS">
-		</div>
-		<div>
-			<h1>PU GAO</h1>
-			<h4>Software Engineer</h4>
-		</div>
-		<hr />
-	</header>
-	<main>
-		<section id="photo">
-			<img src="img/tomatoes.png" alt="Fresh Tomatoes">
-		</section>
-
-		<section id="projects">
-			<h2>
-				Featured Work
-			</h2>
-			<div class="card-deck">
-				<div class="card">
-					<img class="card-img-top img-fluid" src="img/tomatoes.png" alt="Fresh Tomatoes">
-					<div class="card-block">
-						<h4 class="card-title">
-							Fresh Tomatoes
-						</h4>
-						<p class="card-text">
-							Movie trailer website
-						</p>
-						<a href="https://github.com/" class="btn btn-primary">Github</a>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top img-fluid" src="img/tomatoes.png" alt="Fresh Tomatoes">
-					<div class="card-block">
-						<h4 class="card-title">
-							Fresh Tomatoes
-						</h4>
-						<p class="card-text">
-							Movie trailer website
-						</p>
-						<a href="https://github.com/" class="btn btn-primary">Github</a>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top img-fluid" src="img/tomatoes.png" alt="Fresh Tomatoes">
-					<div class="card-block">
-						<h4 class="card-title">
-							Fresh Tomatoes
-						</h4>
-						<p class="card-text">
-							Movie trailer website
-						</p>
-						<a href="https://github.com/" class="btn btn-primary">Github</a>
-					</div>
-				</div>
+	<div class="container">
+		<div class="header">
+			<div class="headerlogo">
+				<img id="logo" alt="logo" src="img/logo.PNG">
 			</div>
-		</section>
-	</main>
+			<div class="headertext">
+				<h1>PU GAO</h1>
+				<h4>Software Engineer</h4>
+			</div>
+		</div>
+		<hr class="underline" />
+		<div style="text-align: center">
+			<img src="https://s3.amazonaws.com/zipcodewilmington/wp-content/uploads/20150327225201/java-source-code.jpg" id="photo" alt="photo">
+		</div>
+		<h2 style="color: #7d97ad"> Featured Work </h2>
+		<div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 ">
+				<a href="https://github.com/Ilovelibrary/ud036_StarterCode">
+					<img class="card-image" alt="Movie Trailer Website Image" src="img/movietrailer.png">
+				</a>
+				<h4 class="card-title">
+					Movie Trailer Website
+				</h4>
+				<a href="https://github.com/Ilovelibrary/ud036_StarterCode">Go to the Code</a>
+			</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4">
+				<a href="https://github.com/Ilovelibrary/Restaurants">
+					<img class="card-image" alt="Restaurant Image" src="img/restaurant.png">
+				</a>
+				<h4 class="card-title">
+					Restaurant Website
+				</h4>
+				<a href="https://github.com/Ilovelibrary/Restaurants">Go to the Code</a>
+			</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4">
+				<a href="https://github.com/Ilovelibrary/Portfolio">
+					<img class="card-image" alt="Portfolio Image" src="img/portfolio.png">
+				</a>
+				<h4 class="card-title">
+					Portfolio
+				</h4>
+				<a href="https://github.com/Ilovelibrary/Portfolio">Go to the Code</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
