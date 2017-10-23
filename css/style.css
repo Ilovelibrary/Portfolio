@@ -22,8 +22,11 @@
 }
 .underline {
     height: 4px;
-    radius: 1px;
+    border-radius: 10%;
     background-color: #7d97ad;
+}
+#featured-work-title {
+    color: #7d97ad;
 }
 .card {
     text-align: center;
@@ -48,4 +51,7 @@
     padding: 10px 0 10px 0;
     width: 100%;
     max-height: 300px;
+}
+p {
+    color: #a7adba;
 }
